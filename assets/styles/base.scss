@@ -1,0 +1,969 @@
+@import 'emoticons-unique';
+
+body:lang(kp) {
+  font-size: 0.75em;
+  background: #EEE;
+}
+
+body:lang(kp) .content[role="main"] {
+  margin: 10px 332px 10px 10px;
+}
+
+body:lang(kp) #header {
+  border: none;
+  background-color: #555069;
+}
+
+body:lang(kp) #header:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #1E1E1E;
+  height: 30px;
+}
+
+body:lang(kp) #sr-header-area {
+  background: #F7F7F7;
+  text-transform: lowercase;
+  border: none;
+  opacity: 0.4;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -ms-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+body:lang(kp) #sr-header-area:hover {
+  opacity: 1;
+}
+
+body:lang(kp) .side h3:nth-of-type(1) {
+  position: absolute;
+  top: 189px;
+  left: 10px;
+  right: 332px;
+  padding: 10px;
+  border: 1px solid #A5A1AD;
+  background: #FFF300;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+body:lang(kp) #header-bottom-left {
+  height: 100px;
+  background-color: #555069;
+}
+
+body:lang(kp) #header-img {
+  display: none;
+}
+
+body:lang(kp) #header-img-a {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px!important;
+  width: 30px!important;
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png")!important;
+  background-position: -264px -15px!important;
+  background-size: 1050%!important;
+  background-color: #1E1E1E;
+  margin: 0!important;
+  z-index: 2;
+}
+
+body:lang(kp) .pagename.redditname {
+  content: "";
+  display: block;
+  margin: -7px 0 0 20px;
+  font-size: 0px;
+  text-indent: -9999em;
+  width: 313px;
+  height: 110px;
+  // background-image: url("//b.thumbs.redditmedia.com/rwzEeuQtxtKxmrw6dciST2137Xg-fUfwj0E337zYx7s.png");
+}
+
+body:lang(kp) .pagename a {
+  display: block;
+  width: 313px;
+  height: 110px;
+}
+
+body:lang(kp) #header-bottom-right {
+  background: #1E1E1E;
+  line-height: 30px;
+  padding: 0 15px;
+  border-radius: 0px;
+  z-index: 2;
+}
+
+body:lang(kp) #header-bottom-right a {
+  color: #AAA;
+}
+
+body:lang(kp) #header-bottom-right .separator {
+  color: #1E1E1E;
+}
+
+body:lang(kp) #mail.nohavemail {
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-position: -280px -42px;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 9px;
+}
+
+body:lang(kp) #mail.havemail {
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-position: -361px -42px;
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 9px;
+}
+
+body:lang(kp) #header-bottom-left .tabmenu {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 0;
+  background: #1E1E1E;
+  height: 30px;
+  margin: 0;
+  padding-left: 5px;
+  font-size: 0.9em;
+  z-index: 110;
+}
+
+body:lang(kp) #header-bottom-left .tabmenu li {
+  margin: 0;
+  font-weight: normal;
+}
+
+body:lang(kp) #header-bottom-left .tabmenu li a {
+  color: #AAA;
+  background: #1E1E1E;
+  line-height: 30px;
+}
+
+body:lang(kp) #header-bottom-left .tabmenu li a:hover {
+  color: #555069;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+body:lang(kp) #header-bottom-left .tabmenu li.selected a {
+  border: none;
+  background: #1E1E1E;
+  color: #fff300;
+}
+
+body:lang(kp) .side {
+  background: #FFF;
+  margin: 0;
+  padding: 0 10px;
+  border-left: 1px solid rgba(165, 161, 173, 0.4);
+  border-bottom: 1px solid rgba(165, 161, 173, 0.4);
+}
+
+body:lang(kp) .side .spacer:first-child {
+  margin-top: 0;
+}
+
+body:lang(kp) .titlebox .md {
+  font-size: 100%;
+}
+
+body:lang(kp) .side #search input {
+  border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #EFEFEF;
+  height: 30px;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+}
+
+body:lang(kp) .side #search input[type="submit"] {
+  margin-left: -30px;
+  height: 30px;
+  width: 30px;
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-position: -110px -13px;
+  background-size: 1000%;
+  background-repeat: no-repeat;
+}
+
+body:lang(kp) .side a[href="http://kp.reddit.com/r/kappa"]:after,
+body:lang(kp) .side a[href="http://reddit.com/r/kappa"]:after {
+  display: inline-block;
+  content: "";
+  height: 28px;
+  width: 147px;
+}
+
+body:lang(kp) .side a[href="http://kp.reddit.com/r/kappa"]:after {
+  // background-image: url("//b.thumbs.redditmedia.com/GCOUkBb4EyprU_tz9smnrjB1K3F3Wc2zivOekTOkKpM.png");
+}
+
+body:lang(kp) .side a[href="http://reddit.com/r/kappa"]:after {
+  // background-image: url("//b.thumbs.redditmedia.com/nBW6cg881Q81RG7TZI0PNW3X_eW7nCF6XO3BWCuysAc.png");
+}
+
+body:lang(kp) .sidebox.submit-link,
+body:lang(kp) .sidebox.submit-text {
+  position: relative;
+  background: #555069!important;
+  border: none;
+  height: 30px;
+  width: 100%;
+}
+
+body:lang(kp) .sidebox.submit-link:before,
+body:lang(kp) .sidebox.submit-text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: block;
+  background-color: #F7F7F7;
+  border: 1px solid #555069;
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-size: 1000%;
+  height: 28px;
+  width: 30px;
+}
+
+body:lang(kp) .sidebox.submit-link:before {
+  background-position: -12px -14px;
+}
+
+body:lang(kp) .sidebox.submit-text:before {
+  background-position: -61px -14px;
+}
+
+body:lang(kp) .sidebox .morelink {
+  background: #555069!important;
+  font-weight: normal;
+  border: none;
+}
+
+body:lang(kp) .sidebox .morelink a {
+  color: #F7F7F7;
+  line-height: 30px;
+  font-size: 0.9em;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+body:lang(kp) .nub {
+  display: none;
+}
+
+body:lang(kp) .subscribe-button {
+  display: block!important;
+  margin: 2px 0 0;
+}
+
+body:lang(kp) .fancy-toggle-button.toggle .option.active {
+  width: 288px;
+  font-size: 0.8em;
+  display: inline-block;
+  text-align: center;
+}
+
+body:lang(kp) .fancy-toggle-button.toggle .add {
+  background: #fff300;
+  color: #1E1E1E;
+  border: none;
+  line-height: 29px;
+  border-radius: 0;
+  font-weight: normal;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+  font-size: 18px!important;
+}
+
+body:lang(kp) .fancy-toggle-button.toggle .remove {
+  background: #EFEFEF;
+  color: darkgray;
+  border: none;
+  border-radius: 0;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+body:lang(kp) .subscribers,
+body:lang(kp) .users-online {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 5px 0;
+  background: #EFEFEF;
+  color: darkgray;
+  font-size: 0.8em;
+  line-height: 29px;
+  height: 29px;
+}
+
+body:lang(kp) .subscribers {
+  width: 100px;
+}
+
+body:lang(kp) .users-online {
+  width: 100px;
+}
+
+body:lang(kp) .subscribers .word,
+body:lang(kp) .users-online .word {
+  display: none;
+}
+
+body:lang(kp) .subscribers .number {
+  padding: 10px;
+}
+
+body:lang(kp) .subscribers .number:after {
+  content: " scrubs.";
+}
+
+body:lang(kp) .users-online .number:after {
+  content: " here now.";
+}
+
+body:lang(kp) .users-online:before {
+  display: none;
+}
+
+body:lang(kp) .side .titlebox .redditname {
+  display: none;
+}
+
+body:lang(kp) .sidebox.create .spacer {
+  display: none;
+}
+
+body:lang(kp) .md table {
+  width: 100%;
+  margin: 0 0 10px 0;
+}
+
+body:lang(kp) .md table td,
+body:lang(kp) .md table thead {
+  text-align: left!important;
+  padding: 5px;
+}
+
+body:lang(kp) .md table td:nth-child(2n+1) {
+  width: 35%;
+}
+
+body:lang(kp) .side a[href="http://reddit.com/r/Kappa/wiki/rules"],
+body:lang(kp) .side a[href="https://www.google.com/calendar/embed?src=59paer0ug3rjp29vjnv0i4hr7k%40group.calendar.google.com"],
+body:lang(kp) .side a[href="http://steamcommunity.com/groups/redditkappa"],
+body:lang(kp) .side a[href="http://kappabets.com"],
+body:lang(kp) .sidea[href="http://kappabets.com"],
+body:lang(kp) .side a[href="http://kappapolls.com/sponsorships/"],
+body:lang(kp) .sidea[href="http://kappapolls.com/sponsorships/"],
+body:lang(kp) .side a[href="https://www.youtube.com/channel/UCvrgdlUgGlRyWvVwol6R-IQ"],
+body:lang(kp) .sidea[href="https://www.youtube.com/channel/UCvrgdlUgGlRyWvVwol6R-IQ"],
+body:lang(kp) .side a[href="http://kappabets.com"],
+body:lang(kp) .sidea[href="http://twitch.tv/team/fgcpros"],
+body:lang(kp) .side a[href="http://www.reddit.com/r/Kappa/comments/1jxgjo/full_list_of_comment_faces/"],
+body:lang(kp) .side a[href="http://teespring.com/stores/kappa"] {
+  // background-image: url("//b.thumbs.redditmedia.com/_QwTfFzLuu-cqBocXGuaJEjozbHla_jKOGZvoXgYnHc.png");
+  display: block;
+  height: 37px;
+  width: 300px;
+}
+
+body:lang(kp) .side a[href="http://reddit.com/r/Kappa/wiki/rules"] {
+  background-position: 0 -8px;
+}
+
+body:lang(kp) .side a[href="https://www.google.com/calendar/embed?src=59paer0ug3rjp29vjnv0i4hr7k%40group.calendar.google.com"] {
+  background-position: 0 -50px;
+}
+
+body:lang(kp) .side a[href="http://twitch.tv/team/fgcpros"] {
+  background-position: 0 -90px;
+}
+
+body:lang(kp) .side a[href="http://kappabets.com"] {
+  background-position: 0 -252px;
+}
+
+body:lang(kp) .side a[href="https://www.youtube.com/channel/UCvrgdlUgGlRyWvVwol6R-IQ"] {
+  background-position: 0 -292px;
+}
+
+body:lang(kp) .side a[href="http://kappapolls.com/sponsorships/"] {
+  background-position: 0 -332px;
+}
+
+body:lang(kp) .side a[href="http://www.reddit.com/r/Kappa/comments/1jxgjo/full_list_of_comment_faces/"] {
+  background-position: 0 -130px;
+}
+
+body:lang(kp) .side a[href="#resources"] {
+  background-position: 0 -170px;
+}
+
+body:lang(kp) .side a[href="http://teespring.com/stores/kappa"] {
+  background-position: 0 -212px;
+}
+
+body:lang(kp) .side a[href="http://steamcommunity.com/groups/redditkappa"] {
+  background-position: 0 -372px;
+}
+
+body:lang(kp) .side .md ol {
+}
+
+body:lang(kp) .side .md p {
+}
+
+body:lang(kp) .sidecontentbox .content {
+  border: none;
+  border-top: 1px solid #EFEFEF;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+body:lang(kp) .loginformside {
+  border: none;
+  border-top: 1px solid #EFEFEF;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+body:lang(kp) .link {
+  border-bottom: 1px solid rgba(165, 161, 173, 0.4);
+}
+
+body:lang(kp) .link .title {
+  color: #555069;
+  font-size: 1.15em;
+  margin-bottom: 5px;
+}
+
+body:lang(kp) .link .title:visited {
+  color: #856DAF;
+}
+
+body:lang(kp) .link .thumbnail {
+  margin-bottom: 0;
+}
+
+body:lang(kp) .tagline {
+  font-size: small;
+}
+
+body:lang(kp) .linkinfo {
+  color: #1E1E1E;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+body:lang(kp) .link.sticky {
+  border: 3px solid green;
+}
+
+body:lang(kp) .link .usertext .md {
+  background: #F7F7F7;
+  border-color: rgba(165, 161, 173, 0.4);
+  border-radius: 0px;
+  font-size: 1em;
+}
+
+body:lang(kp) .thumbnail.self {
+  height: 70px;
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-position: -92px -12px;
+  background-repeat: no-repeat;
+}
+
+body:lang(kp) .thumbnail.default {
+  height: 70px;
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-position: -12px -12px;
+  background-repeat: no-repeat;
+}
+
+body:lang(kp) .thumbnail.nsfw {
+  visibility: hidden;
+}
+
+body:lang(kp) .thumbnail.nsfw {
+  content: "";
+  display: block;
+  // background-image: url("//a.thumbs.redditmedia.com/N45272dk9gDPf3JE7ZmNVvTN6EPOOqCDIL7JeNSE4O4.png");
+  background-position: -12px -92px;
+  width: 70px;
+  height: 70px;
+  visibility: visible;
+}
+
+body:lang(kp) .comment {
+  border-left: 1px solid #A5A1AD;
+  border-right: 1px solid rgba(165, 161, 173, 0.4);
+  border-top: 1px solid rgba(165, 161, 173, 0.4);
+  border-bottom: 1px solid rgba(165, 161, 173, 0.4);
+  padding: 5px;
+  background: #F7F7F7;
+  margin-bottom: 10px;
+}
+
+body:lang(kp) .comment .child {
+  border-left: none;
+}
+
+body:lang(kp) .comment,
+body:lang(kp) .content .details {
+  margin-left: 0;
+}
+
+body:lang(kp) .entry .buttons li a {
+  font-size: 10px!important;
+}
+
+body:lang(kp) .comment .child .comment {
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+body:lang(kp) .md blockquote,
+body:lang(kp) .help blockquote {
+  border-color: #555069;
+}
+
+body:lang(kp) .arrow.upmod {
+  height: 20px;
+  width: 14px;
+  // background-image: url("//f.thumbs.redditmedia.com/iOTwMXlIUokKXn65.png");
+  background-position: 0 0;
+}
+
+body:lang(kp) .arrow.downmod {
+  height: 20px;
+  width: 15px;
+  // background-image: url("//c.thumbs.redditmedia.com/lk-83dVc_pTAsfdh.png");
+  background-position: 0 0;
+}
+
+body:lang(kp) .sheets {
+  margin-right: 3px;
+}
+
+body:lang(kp) .roundfield {
+  background: #A5A1AD;
+  border-radius: 0px;
+}
+
+body:lang(en) {
+  background: #EEE;
+}
+
+body:lang(en) .side {
+  background: #EEE;
+}
+
+body:lang(en) .side a[href="http://reddit.com/r/Kappa/wiki/rules"],
+body:lang(en) .side a[href="https://www.google.com/calendar/embed?src=59paer0ug3rjp29vjnv0i4hr7k%40group.calendar.google.com"],
+body:lang(en) .side a[href="http://steamcommunity.com/groups/redditkappa"],
+body:lang(en) .side a[href="http://kappabets.com"],
+body:lang(en) .side a[href="http://kappapolls.com/sponsorships/"],
+body:lang(en) .side a[href="http://twitch.tv/team/fgcpros"],
+body:lang(en) .side a[href="https://www.youtube.com/channel/UCvrgdlUgGlRyWvVwol6R-IQ"],
+body:lang(en) .side a[href="http://www.reddit.com/r/Kappa/comments/1jxgjo/full_list_of_comment_faces/"],
+body:lang(en) .side a[href="http://teespring.com/stores/kappa"] {
+  // background-image: url("//b.thumbs.redditmedia.com/_QwTfFzLuu-cqBocXGuaJEjozbHla_jKOGZvoXgYnHc.png");
+  display: block;
+  height: 37px;
+  width: 300px;
+}
+
+body:lang(en) .side a[href="http://reddit.com/r/Kappa/wiki/rules"] {
+  background-position: 0 -8px;
+}
+
+body:lang(en) .side a[href="https://www.google.com/calendar/embed?src=59paer0ug3rjp29vjnv0i4hr7k%40group.calendar.google.com"] {
+  background-position: 0 -50px;
+}
+
+body:lang(en) .side a[href="http://twitch.tv/team/fgcpros"] {
+  background-position: 0 -90px;
+}
+
+body:lang(en) .side a[href="http://kappabets.com"] {
+  background-position: 0 -252px;
+}
+
+body:lang(en) .side a[href="http://www.reddit.com/r/Kappa/comments/1jxgjo/full_list_of_comment_faces/"] {
+  background-position: 0 -130px;
+}
+
+body:lang(en) .side a[href="#resources"] {
+  background-position: 0 -170px;
+}
+
+body:lang(en) .side a[href="http://teespring.com/stores/kappa"] {
+  background-position: 0 -212px;
+}
+
+body:lang(en) .side a[href="https://www.youtube.com/channel/UCvrgdlUgGlRyWvVwol6R-IQ"] {
+  background-position: 0 -292px;
+}
+
+body:lang(en) .side a[href="http://kappapolls.com/sponsorships/"] {
+  background-position: 0 -332px;
+}
+
+body:lang(en) .side a[href="http://steamcommunity.com/groups/redditkappa"] {
+  background-position: 0 -372px;
+}
+
+body:lang(en) .side h3:nth-of-type(1) {
+  position: absolute;
+  top: 135px;
+  left: 7px;
+  right: 317px;
+  padding: 10px;
+  border: 1px solid #A5A1AD;
+  background: #fff300;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+body:lang(en) .side a[href="http://kp.reddit.com/r/kappa"]:after,
+body:lang(en) .side a[href="http://reddit.com/r/kappa"]:after {
+  display: inline-block;
+  content: "";
+  height: 28px;
+  width: 147px;
+}
+
+body:lang(en) .side a[href="http://kp.reddit.com/r/kappa"]:after {
+  // background-image: url("//b.thumbs.redditmedia.com/GCOUkBb4EyprU_tz9smnrjB1K3F3Wc2zivOekTOkKpM.png");
+}
+
+body:lang(en) .side a[href="http://reddit.com/r/kappa"]:after {
+  // background-image: url("//b.thumbs.redditmedia.com/nBW6cg881Q81RG7TZI0PNW3X_eW7nCF6XO3BWCuysAc.png");
+}
+
+body:lang(en) div.titlebox span.word {
+  display: none;
+}
+
+body:lang(en) div.titlebox span.number:after {
+  content: " Anime Players Now";
+}
+
+body:lang(en) .thing.stickied a.title #header {
+  border-bottom: 1px solid #fff300;
+}
+
+body:lang(en) div#header-bottom-left {
+  background-color: #5c5772;
+  height: 110px;
+  // background-image: url("//b.thumbs.redditmedia.com/I5FjvUHUEdTl9lcKRfnldiIo6Oa0Nl04z0w4Y6uq0Cg.png");
+  background-repeat: no-repeat;
+}
+
+body:lang(zz) div#header-bottom-left {
+  background-color: #5c5772;
+  height: 200px;
+  // background-image: url("//b.thumbs.redditmedia.com/I5FjvUHUEdTl9lcKRfnldiIo6Oa0Nl04z0w4Y6uq0Cg.png");
+  background-repeat: no-repeat;
+}
+
+body:lang(en) .pagename a {
+  position: absolute;
+  opacity: 0;
+  left: 12px;
+  top: 22px;
+  width: 217px;
+  height: 104px;
+}
+
+body:lang(en) #header-img-a {
+  position: relative;
+  left: 220px;
+  width: 50px;
+  top: 22px;
+  height: 104px;
+}
+
+body:lang(en) #header-img {
+  margin-left: -210px;
+  margin-top: -17px;
+}
+
+body:lang(en) div#sr-header-area,
+body:lang(en) a#sr-more-link {
+  background-color: #333;
+  border: 0px;
+}
+
+body:lang(en) body,
+body:lang(en) .side {
+  background-color: #eee;
+}
+
+body:lang(en) #header-bottom-right {
+  background-color: #333;
+  border-top-left-radius: 0px;
+  padding: 5px 10px 5px 10px;
+}
+
+body:lang(en) #header-bottom-right span,
+body:lang(en) #header-bottom-right a,
+body:lang(en) div#sr-header-area a,
+body:lang(en) div#sr-header-area span {
+  color: #ddd;
+}
+
+body:lang(en) .tabmenu {
+  position: relative;
+  left: 210px;
+  bottom: -20px;
+}
+
+body:lang(en) .tabmenu li a {
+  background: none;
+  color: #ccc;
+}
+
+body:lang(en) .tabmenu li.selected a {
+  border: none!important;
+  color: #fff300!important;
+  background: none;
+}
+
+body:lang(en) .nub {
+  display: none!important;
+}
+
+body:lang(en) .titlebox form.toggle,
+body:lang(en) .leavemoderator,
+body:lang(en) .icon-menu a,
+body:lang(en) .sidebox .spacer {
+  background: none;
+}
+
+body:lang(en) .thing .title:visited {
+  color: #856DAF;
+}
+
+body:lang(en) .thing .title {
+  color: #311e54;
+}
+
+body:lang(en) .linkinfo {
+  border-radius: 0px;
+  background-color: #CECCDC;
+  border: 1px solid #555069;
+}
+
+body:lang(en) .morelink {
+  padding: 4px 10px;
+  background: none transparent;
+  background-color: #5ba2fd;
+  background-image: -webkit-linear-gradient(top, #555069, #3e3c56)!important;
+  background-image: -moz-linear-gradient(top, #555069, #3e3c56)!important;
+  background-image: -ms-linear-gradient(top, #555069, #3e3c56)!important;
+  background-image: -o-linear-gradient(top, #555069, #3e3c56)!important;
+  background-image: linear-gradient(top, #555069, #3e3c56)!important;
+  font-weight: normal;
+  border: none;
+  letter-spacing: 0;
+  -webkit-transition: color .30s ease-in-out;
+  -moz-transition: color .15s ease-in-out;
+  -ms-transition: color .15s ease-in-out;
+  -o-transition: color .15s ease-in-out;
+  transition: color .30s ease-in-out;
+}
+
+body:lang(en) .morelink a:hover {
+  color: #fff;
+}
+
+body:lang(en) .morelink:hover {
+  background: #555069;
+  border: 0px;
+}
+
+body:lang(en) .morelink a {
+  color: #fff300;
+  -webkit-transition: color .30s ease-in-out;
+  -moz-transition: color .30s ease-in-out;
+  -ms-transition: color .15s ease-in-out;
+  -o-transition: color .15s ease-in-out;
+  transition: color .30s ease-in-out;
+}
+
+body:lang(en) a.author {
+  color: #b2a800;
+  letter-spacing: 0.5px;
+}
+
+body:lang(en) .comment .author {
+  letter-spacing: 0px;
+}
+
+body:lang(en) .roundfield,
+body:lang(en) .tabmenu.formtab .selected a {
+  border: none;
+  background-color: #B7B2CB;
+  border-radius: 0px;
+}
+
+body:lang(en) .formtabs-content {
+  border-top: 4px solid #B7B2CB;
+}
+
+body:lang(en) .tabmenu.formtab li#selected a,
+body:lang(en) .tabmenu.formtab li.selected a {
+  color: #fff300;
+}
+
+body:lang(en) .link .usertext .md {
+  border: 1px solid #9c83b3;
+}
+
+body:lang(en) .thumbnail.self {
+  height: 70px;
+  // background-image: url("//b.thumbs.redditmedia.com/YaAr_aC6Fzb6F_b07hBPGuVj1pW1N5wfRHaNU4Pd9vQ.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+body:lang(en) .thumbnail.nsfw {
+  visibility: hidden;
+}
+
+body:lang(en) .thumbnail.nsfw::after {
+  content: "";
+  // background-image: url("//b.thumbs.redditmedia.com/4GF_SRv3L29_ZbHKPCMzLEoJ-0ifnc_AsgWF7M1Fais.png");
+  display: block;
+  width: 70px;
+  height: 70px;
+  visibility: visible;
+}
+
+body:lang(en) .arrow.upmod {
+  // background-image: url("//f.thumbs.redditmedia.com/iOTwMXlIUokKXn65.png");
+  width: 14px;
+  height: 20px;
+  background-position: 0 0;
+}
+
+body:lang(en) .arrow.downmod {
+  // background-image: url("//c.thumbs.redditmedia.com/lk-83dVc_pTAsfdh.png");
+  width: 15px;
+  height: 20px;
+  background-position: 0 0;
+}
+
+.res-nightmode .tabmenu a,
+.res-nightmode #header-bottom-right a,
+.res-nightmode .tabmenu a:visited,
+.res-nightmode #header-bottom-right a:visited {
+  color: rgb(140, 179, 217);
+}
+
+.res-nightmode a,
+.res-nightmode .md a {
+  color: rgb(140, 179, 217)!important;
+}
+
+.res-nightmode a:visited,
+.res-nightmode .md a:visited,
+.res-nightmode .comment .md p>a:visited {
+  color: #369;
+}
+
+.res-nightmode .pagename a {
+  color: black;
+}
+
+.res-nightmode .thing .title {
+  color: #ddd;
+}
+
+.res-nightmode .thing .title:visited {
+  color: #888;
+}
+
+.res-nightmode body .content {
+  background-color: rgb(25, 25, 25);
+}
+
+.res-nightmode .RES-keyNav-activeElement,
+.res-nightmode .RES-keyNav-activeElement .md-container {
+  background-color: #222!important;
+}
+
+.side .md>ul:nth-of-type(2) {
+  box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+  border-left: 10px solid #856DAF;
+  border-radius: 3px;
+  overflow: hidden;
+  list-style: none;
+  position: absolute;
+  padding: .25em .5em .4em;
+  margin: 0;
+  font-size: 13px;
+  color: #fff;
+  font-weight: regular;
+  font-family: Verdana;
+  cursor: default;
+}
+
+.side .md>ul:nth-of-type(2),
+.side .md>ul:nth-of-type(2)::before {
+  position: absolute;
+  top: 38px;
+  right: 30px;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 57px;
+  z-index: 99;
+}
+
+.side .md>ul:nth-of-type(2) a {
+  position: relative;
+  z-index: 99999;
+  color: #fff;
+  line-height: 1.75em;
+  border-bottom: 0px solid #000000;
+}
+
+.flairselector .customizer {
+  display: none!important;
+}
+
+.flair {
+  border: none!important;
+  top: 20px;
+  padding: 0px;
+  // background: url("//b.thumbs.redditmedia.com/N7lS47plaaYJxkG3TbCqo-H_KPs2arZvybh6hEvgV9k.png");
+  display: inline-block;
+}
+
+.link .flair,
+.entry .tagline .flair {
+  float: left;
+}
+
+a[href^="/"] {
+  border: 0!important;
+  padding: 0!important;
+  display: inline-block!important;
+}

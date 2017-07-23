@@ -1,0 +1,99 @@
+[class^="flair flair-gf"],
+a[href^="/gf"] {
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  height: 13px;
+  width: 16px;
+  // background-image: url("//b.thumbs.redditmedia.com/20am_ZElGDinx6C6NyknjcXPsFE5DRw7MxoOWjGJrvo.png")!important;
+  animation: gfanim 0.75s steps(2) infinite;
+  -webkit-animation: gfanim 0.75s steps(2) infinite;
+  -moz-animation: gfanim 0.75s steps(2) infinite;
+}
+
+.flair-gfchun,
+a[href="/gfchun"] {
+  background-position: 0 0;
+}
+
+.flair-gfryu,
+a[href="/gfryu"] {
+  background-position: 0 -13px;
+}
+
+.flair-gfken,
+a[href="/gfken"] {
+  background-position: 0 -26px;
+}
+
+.flair-gfakuma,
+a[href="/gfakuma"] {
+  height: 16px;
+  background-position: 0 -39px;
+}
+
+.flair-gfdan,
+a[href="/gfdan"] {
+  height: 14px;
+  background-position: 0 -55px;
+}
+
+.flair-gffelicia,
+a[href="/gffelicia"] {
+  height: 15px;
+  background-position: 0 -70px;
+}
+
+.flair-gfibuki,
+a[href="/gfibuki"] {
+  height: 14px;
+  background-position: 0 -85px;
+}
+
+.flair-gfhsien,
+a[href="/gfhsien"] {
+  height: 16px;
+  background-position: 0 -99px;
+}
+
+.flair-gfmorrigan,
+a[href="/gfmorrigan"] {
+  height: 15px;
+  background-position: 0 -114px;
+}
+
+.flair-gfsakura,
+a[href="/gfsakura"] {
+  height: 13px;
+  background-position: 0 -129px;
+}
+
+.flair-gftessa,
+a[href="/gftessa"] {
+  height: 16px;
+  background-position: 0 -142px;
+}
+
+.flair-gfzangief,
+a[href="/gfzangief"] {
+  height: 15px;
+  background-position: 0 -158px;
+}
+
+@-webkit-keyframes gfanim {
+  to {
+    background-position-x: -32px;
+  }
+}
+
+@-moz-keyframes gfanim {
+  to {
+    background-position-x: -32px;
+  }
+}
+
+@keyframes gfanim {
+  to {
+    background-position-x: -32px;
+  }
+}
